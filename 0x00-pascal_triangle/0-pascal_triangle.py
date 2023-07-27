@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Operation of pascal's triangle
+"""
 
 def pascal_triangle(n):
     """
