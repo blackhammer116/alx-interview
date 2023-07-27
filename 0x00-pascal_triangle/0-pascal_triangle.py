@@ -3,10 +3,11 @@
 Operation of pascal's triangle
 """
 
+
 def pascal_triangle(n):
     """
         pascal triangle function taking
-        Args: 
+        Args:
             n - number of rows
     """
     if n <= 0:
