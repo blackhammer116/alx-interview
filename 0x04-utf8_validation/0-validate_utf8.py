@@ -5,6 +5,7 @@ this method validates the given data whether or not its utf8
 encoded
 """
 
+
 def validUTF8(data):
     """
     method that validates the given data if its utf-8
