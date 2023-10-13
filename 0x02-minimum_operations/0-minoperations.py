@@ -19,4 +19,3 @@ def minOperations(n):
         else:
             factor += 1
     return op
-
