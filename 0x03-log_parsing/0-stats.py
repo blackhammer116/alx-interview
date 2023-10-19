@@ -13,7 +13,7 @@ def get_log():
     line = 0
     while True:
         try:
-            let_val = input('')
+            let_val = raw_input('')
             value.append(let_val)
             line += 1
             if line % 10 == 0:
