@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
+No mods to be imported at this time
 """
 
 
-#value  = input('')
-
-#input_format = '<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>'
 def get_log():
     """
+    A function that gets the metrics by reading
+    a line one by one in stdin and prints the metrics
     """
     value = []
     line = 0
@@ -34,6 +34,7 @@ def get_log():
             for code in sorted(status_counts):
                 print(f"{code}: {status_counts[code]}")
             break
+
 
 if __name__ == '__main__':
     get_log()
